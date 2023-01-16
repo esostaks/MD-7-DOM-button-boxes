@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+body {
+  box-sizing: border-box;
+  background-color: gainsboro;
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 400;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.btn-txt {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.btn1 {
+  background-color: #017187;
+  border-radius: 8px;
+  width: 160px;
+  height: 70px;
+  border: none;
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+.btn-2 {
+  background-color: rgba(92, 1, 135, 0.71);
+  border-radius: 8px;
+  width: 160px;
+  height: 70px;
+  border: none;
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+.btn-3 {
+  background-color: rgba(135, 17, 1, 0.56);
+  border-radius: 8px;
+  width: 160px;
+  height: 70px;
+  border: none;
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+.btn-4 {
+  background-color: rgba(1, 135, 14, 0.63);
+  border-radius: 8px;
+  width: 160px;
+  height: 70px;
+  border: none;
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+.btn-5 {
+  background-color: #E2CF22;
+  border-radius: 8px;
+  width: 160px;
+  height: 70px;
+  border: none;
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+.btn-6 {
+  background-color: #011E87;
+  border-radius: 8px;
+  width: 160px;
+  height: 70px;
+  border: none;
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+.btn-7 {
+  background-color: #18D5E1;
+  border-radius: 8px;
+  width: 160px;
+  height: 70px;
+  border: none;
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+.top-wrapper {
+  display: flex;
+  gap: 30px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 90px
+}
+
+.main-top-row {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 40px;
+  gap: 110px;
+}
+
+.main-bot-row {
+  display: flex;
+  padding-left: 40px;
+  gap: 110px;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #1FC2AE;
+}
+
+.box-text  {
+  width: 300px;
+  height: 300px;
+  background-color: #1FC2AE;
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #1FC2AE;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #1FC2AE;
+}
+
+.box-text  {
+  width: 300px;
+  height: 300px;
+  background-color: #1FC2AE;
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #1FC2AE;
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bot-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 55px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+
+.input {
+  width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  padding-left: 15px;
+  border: solid 2px #E5E7EB;
+}
+
+.section-bckg {
+  background-color: #FFFFFF;
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+}
